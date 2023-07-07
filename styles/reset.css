@@ -45,3 +45,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+a {
+	text-decoration: none;
+    color:inherit;
+}
+a:hover, a:visited, a:link, a:active, a:focus, a:active
+{
+    text-decoration: none;
+    color:inherit;
+}
