@@ -11,3 +11,4 @@ Anyways, I'll also put a #TODO here.
 -random image cycling on index page
 -pop-ups on right a la the MIT blogs
 -custom 404 page
+-get rid of vertical scrolling on mobile page

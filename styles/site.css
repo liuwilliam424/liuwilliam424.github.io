@@ -24,8 +24,9 @@ h1 {
 
 h2 {
     color: var(--secondary-color);
+    font-weight: 400;
     font-size: 22px;
-    
+    font-family: "EB Garamond", serif;
 }
 
 a {
@@ -40,7 +41,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    font-family: "EB Garamond", serif;
 }
 
 .intro img {
