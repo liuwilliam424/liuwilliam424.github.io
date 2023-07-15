@@ -1,0 +1,56 @@
+@font-face {
+    font-display: swap;
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/eb-garamond-v26-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --primary-color: #811112;
+    --secondary-color: #AC3834;
+    --accent-color: #B29576;
+    --contrast-color: #CAB7A1;
+    --paragraph-color: #3A3B3C;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 60px;
+    font-family: 'EB Garamond', serif;
+}
+
+h2 {
+    color: var(--secondary-color);
+    font-size: 22px;
+    
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.intro {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro img {
+    width: min(600px, 80%);
+}
+
+.intro h1, h2 {
+    line-height: 1;
+}
+
+.intro nav {
+    margin-top: 10px;
+}
