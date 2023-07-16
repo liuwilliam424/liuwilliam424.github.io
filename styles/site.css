@@ -45,7 +45,7 @@ a {
 }
 
 .intro img {
-    width: min(600px, 80%);
+    width: min(500px, 80%);
 }
 
 .intro h1, h2 {
