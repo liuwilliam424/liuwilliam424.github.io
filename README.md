@@ -9,6 +9,9 @@ Anyways, I'll also put a `TODO` here.
 ## TODO
 
 - pop-ups on right a la the MIT blogs
-- custom 404 page
+- make most recent blog bigger
+- custom 404 page (add image cycling)
 - get rid of vertical scrolling on mobile page
 - archival system for what's new page
+- add boldness indicator on nav for what page you're on
+- if writings or reviews ever becomes unsustainably long, implement something to deal with that

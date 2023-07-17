@@ -18,10 +18,10 @@
 h1,
 h2,
 h3,
-h4,
 a,
 p,
-.nav-divider {
+.nav-divider,
+.entry-label {
     font-family: "EB Garamond", serif;
 }
 
@@ -40,6 +40,7 @@ h3 {
     color: var(--primary-color);
     font-size: 20px;
     font-style: italic;
+    margin-bottom: 20px;
 }
 
 p {
@@ -47,7 +48,8 @@ p {
     font-size: 20px;
 }
 
-a {
+article>a,
+nav a {
     color: black;
     text-decoration: underline;
 }
@@ -64,6 +66,32 @@ hr {
     margin-bottom: 10px;
     height: 2px;
     background-color: black;
+}
+
+body>nav {
+    background-color: var(--accent-color);
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 1em;
+}
+
+article p+p {
+    margin-top: 20px;
+}
+
+article img {
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+footer p {
+    font-size: 14px;
+    margin-top: 20px;
 }
 
 .intro {
@@ -88,29 +116,28 @@ h2 {
     margin-top: 10px;
 }
 
-body>nav {
-    background-color: var(--accent-color);
-    padding: 10px 15px;
+.entry-label {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-nav img {
-    height: 1em;
+.entry-label+.entry-label {
+    margin-top: 10px;
 }
 
-article p+p {
-    margin-top: 20px;
+.titles-label {
+    display: flex;
+    flex-direction: column;
 }
 
-article img {
-    margin: 10px 0;
-    max-width: 100%;
+.title-label {
+    color: black;
+    font-size: 22px;
 }
 
-footer p{
-    font-size: 14px;
-    margin-top: 20px;
+.subtitle-label,
+.date-label {
+    color: var(--paragraph-color);
+    font-size: 16px;
 }
-
