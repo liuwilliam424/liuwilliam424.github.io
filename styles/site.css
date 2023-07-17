@@ -37,7 +37,7 @@ h2 {
 }
 
 h3 {
-    color: black;
+    color: var(--primary-color);
     font-size: 20px;
     font-style: italic;
 }
@@ -66,10 +66,6 @@ hr {
     background-color: black;
 }
 
-nav {
-    padding: 10px 15px;
-}
-
 .intro {
     height: 100vh;
     text-align: center;
@@ -94,6 +90,14 @@ h2 {
 
 body>nav {
     background-color: var(--accent-color);
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav img {
+    height: 1em;
 }
 
 article p+p {
@@ -109,3 +113,4 @@ footer p{
     font-size: 14px;
     margin-top: 20px;
 }
+
