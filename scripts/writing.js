@@ -1,13 +1,11 @@
 article = document.querySelector('article');
 
-const create_entries = function(data) {
+const create_entries = function (data) {
     data.forEach(function (entry) {
         const entry_label = document.createElement('div');
         entry_label.classList.add('entry-label');
 
-        let url = "writing/" + entry['title'] +'.html';
-        url = url.toLowerCase();
-        url = url.replaceAll(" ", "_")
+        const url = ("writing/" + entry['title'] + '.html').toLowerCase().replaceAll(" ", "_");
 
         const a_url = document.createElement('a');
         a_url.setAttribute('href', url);
@@ -20,7 +18,7 @@ const create_entries = function(data) {
         title_label.textContent = entry['title'];
 
         const subtitle_label = document.createElement('span');
-        subtitle_label.classList.add('subtitle-label');
+        subtitle_label.classList.add('subtitle-bel');
         subtitle_label.textContent = entry['subtitle'];
 
         const date_label = document.createElement('span');

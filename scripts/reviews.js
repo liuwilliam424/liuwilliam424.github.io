@@ -1,13 +1,11 @@
 article = document.querySelector('article');
 
-const create_entries = function(data) {
+const create_entries = function (data) {
     data.forEach(function (entry) {
         const entry_label = document.createElement('div');
         entry_label.classList.add('entry-label');
 
-        let url = "reviews/" + entry['title'] +'.html';
-        url = url.toLowerCase();
-        url = url.replaceAll(" ", "_")
+        const url = ("reviews/" + entry['title'] + '.html').toLowerCase().replaceAll(" ", "_");
 
         const a_url = document.createElement('a');
         a_url.setAttribute('href', url);
