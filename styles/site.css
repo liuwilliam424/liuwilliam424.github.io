@@ -103,6 +103,7 @@ body>nav {
 
 nav img {
     height: 1em;
+    display: block;
 }
 
 article p+p {
