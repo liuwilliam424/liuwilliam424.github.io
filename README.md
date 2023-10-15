@@ -9,6 +9,7 @@ Anyways, I'll also put a `TODO` here.
 ## TODO
 
 - pop-ups on right a la the MIT blogs
+- add polls
 - make most recent blog bigger
 - custom 404 page (add image cycling)
 - get rid of vertical scrolling on mobile page
