@@ -72,6 +72,10 @@ p {
     font-size: 20px;
 }
 
+em {
+    font-style: italic;
+}
+
 article>a,
 nav a {
     color: black;
